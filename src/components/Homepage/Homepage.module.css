@@ -1,0 +1,97 @@
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: var(--white);
+  text-align: center;
+}
+
+.homepageImage {
+  flex-direction: row;
+  align-self: center;
+  border-radius: 20px;
+  margin-top: 7vh;
+}
+
+.homepageWhiteBackground {
+  flex: 1;
+  background-color: rgb(216, 216, 216);
+}
+
+.homepagePurpleBackground {
+  flex: 1;
+  background-color: rgb(216, 216, 216);
+
+}
+
+.homepageTitle {
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 19px;
+  margin-bottom: 4px;
+  line-height: 38px;
+}
+
+.homepageSubtitle {
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.homepageText {
+  flex-direction: row;
+  margin-top: 40px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.homepageIconsWrapper {
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 84px;
+}
+
+.homepageIcons p {
+  transition: all 2s ease-out;
+}
+.homepageIcons:hover p {
+  transform: translateY(-5px);
+  color: #fff;
+  background-color: #000;
+  border-radius: 20px;
+  transition: all 0.5s ease-out;
+}
+.homepageIcons:hover img {
+  transform: scale(0.9);
+  transition: all 1s ease-out;
+}
+
+.homepageIconsText {
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  align-self: center;
+  margin-top: 4px;
+  margin-bottom: 10vh;
+}
+
